@@ -1,0 +1,28 @@
+state_code,state_name,region,capital,capital_lat,capital_lon
+AC,Acre,Norte,Rio Branco,-9.97,-67.81
+AL,Alagoas,Nordeste,Maceió,-9.67,-35.74
+AP,Amapá,Norte,Macapá,0.03,-51.07
+AM,Amazonas,Norte,Manaus,-3.12,-60.02
+BA,Bahia,Nordeste,Salvador,-12.97,-38.51
+CE,Ceará,Nordeste,Fortaleza,-3.72,-38.54
+DF,Distrito Federal,Centro-Oeste,Brasília,-15.79,-47.88
+ES,Espírito Santo,Sudeste,Vitória,-20.32,-40.34
+GO,Goiás,Centro-Oeste,Goiânia,-16.69,-49.26
+MA,Maranhão,Nordeste,São Luís,-2.53,-44.30
+MT,Mato Grosso,Centro-Oeste,Cuiabá,-15.60,-56.10
+MS,Mato Grosso do Sul,Centro-Oeste,Campo Grande,-20.44,-54.65
+MG,Minas Gerais,Sudeste,Belo Horizonte,-19.92,-43.94
+PA,Pará,Norte,Belém,-1.46,-48.50
+PB,Paraíba,Nordeste,João Pessoa,-7.12,-34.86
+PR,Paraná,Sul,Curitiba,-25.43,-49.27
+PE,Pernambuco,Nordeste,Recife,-8.05,-34.88
+PI,Piauí,Nordeste,Teresina,-5.09,-42.80
+RJ,Rio de Janeiro,Sudeste,Rio de Janeiro,-22.91,-43.17
+RN,Rio Grande do Norte,Nordeste,Natal,-5.79,-35.21
+RS,Rio Grande do Sul,Sul,Porto Alegre,-30.03,-51.23
+RO,Rondônia,Norte,Porto Velho,-8.76,-63.90
+RR,Roraima,Norte,Boa Vista,2.82,-60.67
+SC,Santa Catarina,Sul,Florianópolis,-27.60,-48.55
+SP,São Paulo,Sudeste,São Paulo,-23.55,-46.63
+SE,Sergipe,Nordeste,Aracaju,-10.91,-37.07
+TO,Tocantins,Norte,Palmas,-10.18,-48.33
