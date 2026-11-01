@@ -1,0 +1,39 @@
+version: 2
+
+models:
+  - name: fct_orders
+    description: >
+      One row per order. Central fact table with delivery KPIs (promised vs actual
+      lead time, delay, late flag), basket, payment, geography and review score.
+    columns:
+      - name: order_id
+        data_tests: [unique, not_null]
+      - name: is_late
+        description: Delivered after the estimated delivery date (null if not delivered).
+      - name: seller_customer_distance_km
+        description: Approximate distance between seller and customer states (state capitals).
+      - name: review_score
+        data_tests:
+          - accepted_values: {arguments: {values: [1, 2, 3, 4, 5], quote: false}}
+
+  - name: dim_customers
+    columns:
+      - name: customer_unique_id
+        data_tests: [unique, not_null]
+
+  - name: dim_sellers
+    columns:
+      - name: seller_id
+        data_tests: [unique, not_null]
+      - name: late_rate
+        data_tests: [not_null]
+
+  - name: mart_delivery_performance
+    data_tests:
+      - unique_combination:
+          arguments: {columns: [purchase_month, customer_state]}
+
+  - name: mart_customer_rfm
+    columns:
+      - name: customer_unique_id
+        data_tests: [unique, not_null]
