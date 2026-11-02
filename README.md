@@ -8,8 +8,9 @@ An analytics-engineering pipeline that turns the raw extracts of a marketplace
 (**99,441 real orders** from [Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce),
 Brazil, 2016-2018) into tested, documented tables ready for BI and machine learning.
 
-It is the data foundation of
-[delivery-delay-prediction](https://github.com/mohfofana/delivery-delay-prediction).
+It is the data foundation of two other projects:
+[delivery-delay-prediction](https://github.com/mohfofana/delivery-delay-prediction) and
+[customer-segmentation](https://github.com/mohfofana/customer-segmentation).
 
 ## Why this project
 
